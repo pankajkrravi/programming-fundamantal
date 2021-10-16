@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class MultiplicationTable {
     static ArrayList<Integer> getTable(int N){
         // code here
-        ArrayList mList= new ArrayList<Integer>();
+        ArrayList<Integer> mList= new ArrayList<Integer>();
         for(int i=1;i<=10;i++){
             mList.add(N*i);
         }

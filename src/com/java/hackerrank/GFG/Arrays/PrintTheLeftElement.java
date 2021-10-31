@@ -8,7 +8,7 @@ import java.util.Arrays;
   ===================  Optimise and fix bugs ===============*/
 public class PrintTheLeftElement {
     public int leftElement(int arr[], int n) {
-        // Your code goes here
+       /* // Your code goes here
         Arrays.sort(arr);
         int leftElement =0;
         int i,j;
@@ -20,7 +20,13 @@ public class PrintTheLeftElement {
             }
 
             leftElement =arr[j+1];
-            return leftElement;
+            return leftElement;*/
+        Arrays.sort(arr);
+        int mid=n/2;
+        if(n%2==0)
+        return arr[mid-1];
+     else
+        return arr[mid];
     }
 
     public static void main(String[] args) {

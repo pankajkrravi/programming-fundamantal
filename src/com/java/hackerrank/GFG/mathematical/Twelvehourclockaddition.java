@@ -6,14 +6,9 @@ package com.java.hackerrank.GFG.mathematical;
  */
 public class Twelvehourclockaddition {
     static int clockSum(int num1, int num2){
-        // code here
-        int sumClock =num1+num2;
-        if (sumClock == 12 || sumClock ==24)
-            return 0;
-        else  if (sumClock > 12)
-            return  -(12-sumClock);
-        else
-            return sumClock;
+// code here
+        int output=num1+num2;
+        return output%12;
     }
 
     public static void main(String[] args) {

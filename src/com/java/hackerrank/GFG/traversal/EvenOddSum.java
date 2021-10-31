@@ -1,0 +1,41 @@
+package com.java.hackerrank.GFG.traversal;
+
+import java.util.ArrayList;
+
+/*********************************************************************************
+ * @Author pankaj
+ * @create 10/31/21 5:24 PM
+Given an array Arr[] of N integers.Find the sum of values of even and odd index positions separately.
+
+Example 1:
+
+Input:
+N=5
+Arr={1,2,3,4,5}
+Output:
+9 6
+Explanation:
+The sum of elements at odd places i.e
+at 1st,3rd and 5th places are (1+3+5=9)
+Similarly,the sum of elements at even
+places i.e. at 2nd and 4th places are
+(2+4=6).*/
+public class EvenOddSum {
+    ArrayList<Integer> EvenOddSum(int N, int Arr[]) {
+        // code here
+        ArrayList<Integer> list = new ArrayList<>();
+        int odd = 0;
+        int even = 0;
+        for(int i = 0; i<N; i++){
+            if(i%2==0){
+                even = even+Arr[i];
+            }
+            else
+                odd = odd+Arr[i];
+
+        }
+        list.add(even);
+        list.add(odd);
+        return list;
+    }
+}

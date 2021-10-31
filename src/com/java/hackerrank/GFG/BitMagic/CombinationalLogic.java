@@ -18,6 +18,6 @@ Explanation: (not(A)).B + C.D +E.(not(F))
 public class CombinationalLogic {
     static int logicalOperation(int A,int B,int C,int D,int E,int F){
         // code here
-            return 0;
+        return (((~A)&B) | (C&D) | (E&(~F)));
     }
 }

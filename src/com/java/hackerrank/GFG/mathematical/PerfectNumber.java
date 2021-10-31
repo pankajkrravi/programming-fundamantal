@@ -7,7 +7,24 @@ package com.java.hackerrank.GFG.mathematical;
 public class PerfectNumber {
     int isPerfect(int N) {
         // code here
-        int digit, sum = 0;
+        {
+// code here
+            int tsum,fsum=0;
+            int t,rNum=N;
+            while(N>0){
+                t=N%10;
+                tsum=1;
+                while(t>0){
+                    tsum*=t;
+                    t--;
+                }
+                fsum+=tsum;
+                N=N/10;
+            }
+            if(fsum==rNum) return 1;
+            else return 0;
+        }
+            /* int digit, sum = 0;
         // find digit
         //find  !
         // store in sum
@@ -27,7 +44,7 @@ public class PerfectNumber {
             sum=sum*i;
             i++;
         }
-        return sum;
+        return sum;*/
     }
 
     public static void main(String[] args) {

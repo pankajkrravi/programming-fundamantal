@@ -6,9 +6,9 @@ package com.java.hackerrank.GFG.mathematical;
  */
 public class CompoundInterest {
     static int getCompundInterest(int P , int T , int N , int R) {
-        // code here
-        //         double ci  =  P * Math.pow(1 + (R / N), N * T);
-        double ci  =  P * (Math.pow((1 + R/100), (T * N))) - P;
-          return (int) ci;
+        double amount =(double) P *Math.pow((1 + ((double)R / 100) / (double)N ), (double)N * (double)T);
+
+        return (int) amount;
+
     }
 }

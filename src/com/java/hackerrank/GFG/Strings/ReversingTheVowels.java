@@ -7,8 +7,29 @@ package com.java.hackerrank.GFG.Strings;
  *
   *************************************** Zoho, Flipkart **************************************/
 public class ReversingTheVowels {
-    String modify (String s) {
-        // your code here
-        return "";
+    boolean vowel(char c){
+        return (c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U');
+    }
+    String modify (String s)
+    {
+        int n=s.length();
+        //code here.
+        int i=0;
+        int j=n-1;
+        while(i<j){
+            if(!vowel(s.charAt(i))){
+                i++;
+                continue;
+            }else if(!vowel(s.charAt(j))){
+                j--;
+                continue;
+            }
+            int temp=s.charAt(i);
+          //  s.charAt(i)=s.charAt(j);   // do fix it
+         //   s.charAt(j)=temp;
+            i++;
+            j--;
+        }
+        return s;
     }
 }

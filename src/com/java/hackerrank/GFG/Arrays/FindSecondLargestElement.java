@@ -36,23 +36,20 @@ package com.java.hackerrank.GFG.Arrays;
 public class FindSecondLargestElement {
     public static int print2largest(int A[], int N) {
         //CODE HERE
-        int i, first, second;
-        first = second = Integer.MIN_VALUE;
-        for (i = 0; i < N; i++) {
-             /* If current element is greater than
-            first then update both first and second */
+        int first = -1, second = -1;
+        for (int i = 0; i < N; i++) {
             if (A[i] > first) {
                 second = first;
                 first = A[i];
-            } /* If arr[i] is in between first and
-               second then update second  */
-           else if (A[i] > second && A[i] != first) {
+            } else if (second < A[i] && A[i] < first)
                 second = A[i];
-            }
         }
-        return A[second];
+        return second;
+    }
+
+    public static void main(String[] args) {
+        System.out.print(print2largest(new int[]{2,4,5,6,7},5));
     }
 }
 
 
-// ========================= not working ============= fix it

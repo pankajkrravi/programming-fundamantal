@@ -22,6 +22,7 @@ package com.java.hackerrank.GFG.Sorting;
  * Your Task:
  * Complete the function SortBinaryArray() which takes given array as input and returns the sorted array.
  * <p>
+ *
  * *****************************   Accolite Amazon InfoEdge Intuit MakeMyTrip Paytm Zoho *******************
  */
 public class BinaryArraySorting {
@@ -29,9 +30,9 @@ public class BinaryArraySorting {
     static int[] SortBinaryArray(int arr[], int n) {
         // code here
         // taking more than expected time
-        /*for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (arr[i] > arr[j]) {
+       /* for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (arr[i] < arr[j]) {
                     int temp = arr[j ];
                     arr[j] = arr[i];
                     arr[i] = temp;
@@ -39,23 +40,19 @@ public class BinaryArraySorting {
             }
         }
         return arr;*/
-        if (n<1)
-            return new int[0];
-        int countOne = 0;
-        for (int i = 0; i < n; i++) {
-                    if (arr[i] ==1)
-                        ++countOne;
+       int i=0,j=n-1;
+        while (i<j){
+            while (arr[i] == 0)
+                i++;
+            while (arr[j] ==1)
+                j--;
+            if (i<j){
+                int temp =arr[j];
+                arr[j] = arr[i];
+                arr[i] = temp;
+            }
         }
-        int resp[] =new int[n];
-        // store 0
-        for (int i=0;i<n-countOne;i++){
-            resp[i] =0;
-        }
-        // store 1
-        for(int i=countOne-1;i<n;i++){
-            resp[i] =1;
-        }
-        return resp;
+        return arr;
     }
 
     public static void main(String[] args) {

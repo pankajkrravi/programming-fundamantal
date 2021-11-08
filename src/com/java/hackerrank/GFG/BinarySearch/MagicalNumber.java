@@ -19,8 +19,13 @@ public class MagicalNumber {
     public static int binarySearch(int arr[], int low, int high) {
         // your code here
         for (int i=0;i<arr.length;i++){
-            if (i == arr[i])
-                return i;
+            int mid = (low+high)/2;
+            if (mid ==arr[mid])
+                return  mid;
+            else if (mid >arr[mid])
+                low = mid+1;
+            else
+                high = mid-1;
         }
         return -1;
     }

@@ -1,8 +1,6 @@
 package com.java.hackerrank.GFG.Arrays;
 
-import javafx.util.Pair;
 
-import javax.xml.bind.annotation.XmlInlineBinaryData;
 
 /**
  * @Author pankaj

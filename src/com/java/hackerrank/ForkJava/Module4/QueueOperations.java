@@ -1,4 +1,4 @@
-package com.java.hackerrank.ForkJava.MOdule4;
+package com.java.hackerrank.ForkJava.Module4;
 
 import java.util.Queue;
 

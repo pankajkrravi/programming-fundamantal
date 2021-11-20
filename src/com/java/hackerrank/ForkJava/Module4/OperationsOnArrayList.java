@@ -1,7 +1,6 @@
-package com.java.hackerrank.ForkJava.MOdule4;
+package com.java.hackerrank.ForkJava.Module4;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 
 /**

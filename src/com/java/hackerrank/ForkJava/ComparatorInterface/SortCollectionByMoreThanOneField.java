@@ -1,16 +1,19 @@
+/*
 package com.java.hackerrank.ForkJava.ComparatorInterface;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
+*/
 /**
  * @Author pankaj
  * @create 11/19/21 8:23 PM
 
 // Java program to demonstrate working of Comparator
 // interface more than one field
- */
+ *//*
+
 // sort according to the student name and secondly, sort according to student age.
 class Student {
 
@@ -48,22 +51,26 @@ class Student {
     }
 
     static class CustomerSortingComparator
-            implements Comparator<Student> {
+            implements Comparator<Students> {
 
         @Override
-        public int compare(Student customer1,
-                           Student customer2) {
+        public int compare(Students customer1,
+                           Students customer2) {
 
             // for comparison
-           /* #################### fix it
+           */
+/* #################### fix it
            int NameCompare = customer1.getName().compareTo(
                     customer2.getName());
             int AgeCompare = customer1.getAge().compareTo(
-                    customer2.getAge());*/
+                    customer2.getAge());*//*
+
 
             // 2-level comparison
-           /* return (NameCompare == 0) ? AgeCompare
-                    : NameCompare;*/
+           */
+/* return (NameCompare == 0) ? AgeCompare
+                    : NameCompare;*//*
+
             return 0; // fix above code
         }
     }
@@ -73,16 +80,16 @@ class Student {
         {
 
             // create ArrayList to store Student
-            List<Student> al = new ArrayList<>();
+            List<Students> al = new ArrayList<>();
 
             // create customer objects using constructor
             // initialization
-            Student obj1 = new Student("Ajay", 27);
-            Student obj2 = new Student("Sneha", 23);
-            Student obj3 = new Student("Simran", 37);
-            Student obj4 = new Student("Ajay", 22);
-            Student obj5 = new Student("Ajay", 29);
-            Student obj6 = new Student("Sneha", 22);
+            Students obj1 = new Students("Ajay", 27);
+            Students obj2 = new Students("Sneha", 23);
+            Students obj3 = new Students("Simran", 37);
+            Students obj4 = new Students("Ajay", 22);
+            Students obj5 = new Students("Ajay", 29);
+            Students obj6 = new Students("Sneha", 22);
 
             // add customer objects to ArrayList
             al.add(obj1);
@@ -93,7 +100,7 @@ class Student {
             al.add(obj6);
 
             // before Sorting arraylist: iterate using Iterator
-            Iterator<Student> custIterator = al.iterator();
+            Iterator<Students> custIterator = al.iterator();
 
             System.out.println("Before Sorting:\n");
             while (custIterator.hasNext()) {
@@ -107,8 +114,9 @@ class Student {
             // after Sorting arraylist: iterate using enhanced
             // for-loop
             System.out.println("\n\nAfter Sorting:\n");
-            for (Student customer : al) {
+            for (Students customer : al) {
                 System.out.println(customer);
             }
         }
     }
+*/

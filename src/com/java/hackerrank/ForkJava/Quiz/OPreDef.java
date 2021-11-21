@@ -5,7 +5,7 @@ package com.java.hackerrank.ForkJava.Quiz;
  * @create 11/20/21 1:08 PM
  */
 public class OPreDef {
-    public static void main (String[] args)
+    /*public static void main (String[] args)
     {
         GFG obj = new GFG();
         obj.x = 20;
@@ -13,5 +13,5 @@ public class OPreDef {
         obj.ch = 'G';
 
         System.out.print(obj.x + " " + obj.str + " " + obj.ch);
-    }
+    }*/
 }

@@ -20,6 +20,6 @@ public class ThisQ {
     }
     public static void main(String[] args)
     {
-        GFG obj = new GFG();
+      //  GFG obj = new GFG();
     }
 }

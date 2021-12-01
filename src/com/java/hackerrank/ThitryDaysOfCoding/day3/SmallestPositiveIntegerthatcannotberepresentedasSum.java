@@ -1,4 +1,4 @@
-package com.java.hackerrank.DaysOfCoding.day3;
+package com.java.hackerrank.ThitryDaysOfCoding.day3;
 
 import java.util.Arrays;
 

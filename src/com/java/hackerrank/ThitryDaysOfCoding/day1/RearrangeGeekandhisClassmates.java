@@ -1,4 +1,4 @@
-package com.java.hackerrank.DaysOfCoding.day1;
+package com.java.hackerrank.ThitryDaysOfCoding.day1;
 
 /**
  * @Author pankaj

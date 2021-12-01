@@ -1,4 +1,4 @@
-package com.java.hackerrank.problemsolving;
+package com.java.hackerrank.GFG.problemsolving;
 
 /**
  * @Author pankaj

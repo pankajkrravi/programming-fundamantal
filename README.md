@@ -6,4 +6,4 @@ GFG- Program Practice Link - https://github.com/pankajkrravi/programming-fundama
 
 GFG- Fork Java- https://github.com/pankajkrravi/programming-fundamantal/tree/master/src/com/java/hackerrank/ForkJava
 
-GFG- Problem Solving - methematical porgrams- https://github.com/pankajkrravi/programming-fundamantal/tree/master/src/com/java/hackerrank/problemsolving
+GFG- Problem Solving - methematical porgrams- https://github.com/pankajkrravi/programming-fundamantal/tree/master/out/production/programming-fundamental/com/java/hackerrank/problemsolving

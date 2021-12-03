@@ -49,4 +49,16 @@ public class AlternativeSorting {
         }
         return arrayList;
     }
+
+    public static void main(String[] args) {
+            AlternativeSorting sorting=new AlternativeSorting();
+        ArrayList<Long> resp=  sorting.alternateSort(new long[]{7,1,2,3,4,5,6},7);
+            System.out.println(resp);
+    }
 }
+ // See, It's simple Once the array is sorted using  1-->  Arrays.sort(arr);
+//
+//that means values are in ascending order.
+//
+//
+//2 . than the even

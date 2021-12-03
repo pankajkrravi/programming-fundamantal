@@ -25,3 +25,4 @@ public class RemoveVowelsFromString {
         System.out.println(new RemoveVowelsFromString().removeVowels("&%^oq^" ));// &%^q^
     }
 }
+ // ========================= Tcase failed =========================

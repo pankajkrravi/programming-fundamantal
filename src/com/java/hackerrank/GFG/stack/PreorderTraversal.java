@@ -1,7 +1,9 @@
+/*
 package com.java.hackerrank.GFG.stack;
-
+import com.java.hackerrank.GFG.stack.Node;
 import java.util.ArrayList;
 
+*/
 /**
  * @Author pankaj
  * @create 12/6/21 10:31 AM
@@ -37,7 +39,8 @@ import java.util.ArrayList;
  * 0 <= Data of a node <= 105
  * <p>
  * ************************** Amazon Walmart Microsoft Flipkart ***********************
- */
+ *//*
+
 public class PreorderTraversal {
     //Function to return a list containing the preorder traversal of the tree.
     static ArrayList<Integer> preorder(Node root) {
@@ -59,3 +62,4 @@ public class PreorderTraversal {
 
     }
 }
+*/

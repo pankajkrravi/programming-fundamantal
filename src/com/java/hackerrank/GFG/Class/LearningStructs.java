@@ -1,7 +1,5 @@
 package com.java.hackerrank.GFG.Class;
 
-import com.java.hackerrank.GFG.collection.Node;
-
 /**
  * @Author pankaj
  * @create 12/14/21 6:54 AM
@@ -25,14 +23,14 @@ Since this is a function problem, you don't need to take any input. Just complet
 Constraints:
 1 <= N <= 100
  */
-public class LearningStructs {
+/*public class LearningStructs {
     int data;
     Node next;
     LearningStructs(int data){
         this.data=data;
         this.next=null;
-       /*it's  cpp challenge
+       *//*it's  cpp challenge
         int data;
-        Node*next;*/
+        Node*next;*//*
     }
-}
+}*/

@@ -1,7 +1,9 @@
+/*
 package com.java.hackerrank.GFG.collection;
 
 import java.util.Arrays;
 
+*/
 /**
  * @Author pankaj
  * @create 10/30/21 10:43 AM
@@ -15,7 +17,8 @@ Output: 7
 Explanation:
 The subarray {3,4} has maximum xor
 value equal to 7.
- */
+ *//*
+
 public class MaximumXORSubarray {
 
     static int maxSubarrayXOR(int N, int arr[]){
@@ -37,3 +40,4 @@ public class MaximumXORSubarray {
         System.out.print(maxSubarrayXOR(4,new int[]{1,2,3,4}));
     }
 }
+*/

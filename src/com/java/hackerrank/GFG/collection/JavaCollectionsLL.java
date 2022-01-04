@@ -1,7 +1,9 @@
+/*
 package com.java.hackerrank.GFG.collection;
 
 import com.java.hackerrank.GFG.Cognizant.NodeS;
 
+*/
 /**
  * @Author pankaj
  * @create 12/14/21 6:41 AM
@@ -29,7 +31,8 @@ import com.java.hackerrank.GFG.Cognizant.NodeS;
  * Output:
  * 1 2 4 5
  * 3 6 9
- */
+ *//*
+
 public class JavaCollectionsLL {
     void deleteNode(Node node) {
         if (node.next == null) {
@@ -41,4 +44,4 @@ public class JavaCollectionsLL {
     }
 }
 
-//========================
+//========================*/

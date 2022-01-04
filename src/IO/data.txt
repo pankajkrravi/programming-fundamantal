@@ -1,0 +1,7 @@
+Exception Handling
+Exception?
+Any unexpected or unwanred event which disturb the normal flow of program.
+Example: S.o.p(400/2);// no exception
+S.o.p(400/0);// exception occur-> Arithmatic exception
+Exception Handling?
+Providing alternate way to handle unexpected event/ unwanted event.

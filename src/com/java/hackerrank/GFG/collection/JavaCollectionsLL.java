@@ -31,8 +31,13 @@ import com.java.hackerrank.GFG.Cognizant.NodeS;
  * Output:
  * 1 2 4 5
  * 3 6 9
+<<<<<<< Updated upstream
  *//*
 
+=======
+ */
+/*
+>>>>>>> Stashed changes
 public class JavaCollectionsLL {
     void deleteNode(Node node) {
         if (node.next == null) {
@@ -43,5 +48,6 @@ public class JavaCollectionsLL {
         }
     }
 }
+*/
 
 //========================*/

@@ -23,25 +23,22 @@ Since this is a function problem, you don't need to take any input. Just complet
 Constraints:
 1 <= N <= 100
  */
-<<<<<<< Updated upstream
 /*public class LearningStructs {
 =======
 /*
 public class LearningStructs {
->>>>>>> Stashed changes
     int data;
     Node next;
     LearningStructs(int data){
         this.data=data;
         this.next=null;
-<<<<<<< Updated upstream
        *//*it's  cpp challenge
         int data;
         Node*next;*//*
     }
 }*/
-=======
-       */
+
+
 /*it's  cpp challenge
         int data;
         Node*next;*//*
@@ -49,4 +46,3 @@ public class LearningStructs {
     }
 }
 */
->>>>>>> Stashed changes

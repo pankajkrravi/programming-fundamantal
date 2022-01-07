@@ -12,7 +12,15 @@ public class IOExample {
         //read file
 
         try {
+            // checked exception - 1
             FileInputStream inputStream = new FileInputStream("/home/pankaj/intelijCommunity21/Hackerrank/src/IO/data.txt");
+            try {
+                // checked exception - 2
+                Class.forName("com.mysql.jdbc.Driver"); //
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+            System.out.println(inputStream);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

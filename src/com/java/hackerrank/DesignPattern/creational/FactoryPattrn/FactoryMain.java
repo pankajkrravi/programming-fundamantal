@@ -1,6 +1,6 @@
 package com.java.hackerrank.DesignPattern.creational.FactoryPattrn;
 
-import javafx.scene.transform.Scale;
+//import javafx.scene.transform.Scale;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
 package com.java.hackerrank.GFG.Java;
 
-import sun.awt.X11.XSystemTrayPeer;
+//import sun.awt.X11.XSystemTrayPeer;
 
 /**
  * @Author pankaj

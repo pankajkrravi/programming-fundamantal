@@ -1,7 +1,5 @@
 package com.java.hackerrank.ForkJava.Quiz;
 
-import jdk.internal.org.objectweb.asm.tree.MultiANewArrayInsnNode;
-
 import java.util.Hashtable;
 
 /**

@@ -1,2 +1,13 @@
-package com.java.hackerrank.GFG.ProblemOfTheDay;public class Node {
+package com.java.hackerrank.GFG.ProblemOfTheDay;
+
+class Node
+{
+    int data;
+    Node left, right;
+
+    Node(int item)
+    {
+        data = item;
+        left = right = null;
+    }
 }

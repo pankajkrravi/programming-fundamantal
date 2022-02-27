@@ -13,7 +13,7 @@ public class TicTacToe {
         this.userMarker = playerToken;
         this.aiMarker = aiMarker;
         this.winner = '_';
-        //this.currentMarker = currentMarker;
+        this.currentMarker = userMarker;
         this.board = setBoard();
     }
 

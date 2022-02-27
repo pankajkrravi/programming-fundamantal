@@ -36,8 +36,24 @@ public class TicTacToeMainRunner {
                 } else {
                     // AI tern
                     System.out.println("it's my tern!!!");
+                    int  aiSpot = ai.picksSpot(game);
+                    game.playTurn(aiSpot);
+                    System.out.println("I picked "+ aiSpot+" !");
+
                 }
+                // print
+                System.out.println();
+                game.printBoard();
+
             }
+            System.out.println(game.gameOver());
+            System.out.println();
+            // set up a new game
+            System.out.println("Do you want to play again ? Enter Y if you want or enter anything if you are tired og me .");
+            char  resp= scanner.next().charAt(0);
+            doYouWantToPlay = (resp=='Y');
+            System.out.println();
+            System.out.println();
         }
     }
 }
